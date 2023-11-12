@@ -7,7 +7,7 @@ function App() {
       <Box heading={"hello"} func1={(a: string) => alert(a)}>
         {<>hello</>}
       </Box>
-      {/* <Generic label={"label"} value={""} onChange={() => {}} /> */}
+      <Generic label={"label"} value={""} onChange={() => {}} />
     </>
   );
 }
